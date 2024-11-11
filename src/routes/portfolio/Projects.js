@@ -7,12 +7,7 @@ const Projects = () => {
     <section className="projects-grid">
       {projectsData.map((project) => (
         <section key={project.id} className="projects-grid__project">
-          <img
-            src={project.img}
-            alt=""
-            aria-hidden="true"
-            className="projects-grid__cover"
-          />
+        
           <section className="projects-grid__description">
             <p className="white-text p-tag">{project.description}</p>
             <section className="projects-grid__stack">
