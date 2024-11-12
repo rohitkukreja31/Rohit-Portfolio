@@ -12,7 +12,7 @@ import "./About.sass";
 
 const About = () => {
   useEffect(() => {
-    document.title = "About | Nikhil Kore";
+    document.title = "About | Rohit Kukreja";
     window.scrollTo(0, 0);
   })
   return (
